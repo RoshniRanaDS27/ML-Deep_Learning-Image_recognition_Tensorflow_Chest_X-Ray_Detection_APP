@@ -21,6 +21,9 @@ The Pneumonia Detection App is a desktop application designed to detect pneumoni
 - **TensorFlow:** Library for deep learning and model inference.
 - **PIL (Pillow):** Used for image processing.
 - **win32com:** Provides text-to-speech functionality.
+- **Warnings and PIL:** Used to handle image processing and suppress warnings.
+- **NumPy:** For numerical operations on image data.
+- **Threading:** To run text-to-speech operations asynchronously.
 
 ## Installation
 
@@ -51,15 +54,56 @@ The Pneumonia Detection App is a desktop application designed to detect pneumoni
 4. Training and Saving
 Used the code snippet above to train the model and saved it as chest_xray_Roshnis_Model.h5.
 
-# Usage
+# APP Usage
 
-1. Run the Application:
--
-3. Upload an Image: 
-- Click the "Upload Image" button to select and upload a chest X-ray image.
+1. Run the Application: chest_xray_App_Roshni.py 
+2. Upload an Image:  Click the "Upload Image" button to select and upload a chest X-ray image. 
+3. Predict Results: Click the "Prediction" button to analyze the image and receive the result.
+4. View Results: A message box will display the result, and the result will be announced via speech synthesis.
 
-3. Predict Results:
-- Click the "Prediction" button to analyze the image and receive the result.
+# ML Prediction model Code Overview
+### Main Application Code
+The codebase for the Pneumonia Detection App consists of several key components. Here's an overview of the main sections:
 
-4. View Results:
-- A message box will display the result, and the result will be announced via speech synthesis.
+# Imports
+
+- **Warnings and PIL:** Used to handle image processing and suppress warnings.
+- **TensorFlow:** For loading the pre-trained deep learning model and making predictions.
+- **NumPy:** For numerical operations on image data.
+- **PyQt5:** For creating the graphical user interface (GUI) of the application.
+- **win32com.client:** Provides text-to-speech functionality.
+- **Threading:** To run text-to-speech operations asynchronously.
+
+# Functions
+
+### speak_async(text)
+- Purpose: To perform text-to-speech operations asynchronously.
+- Implementation: Uses the *win32com.client* library to convert text to speech in a separate thread.
+
+### Ui_MainWindow Class
+
+- setupUi(self, MainWindow)
+
+- Purpose: Initializes the main window, sets up the layout, and configures widgets.
+- Components:
+   - Labels and GIF: For displaying an animated GIF and image names.
+   - Buttons: For uploading images and making predictions.
+   - Styling: Customizes the appearance of widgets.
+
+- retranslateUi(self, MainWindow)
+
+   - Purpose: Sets the text for various UI elements and configures tooltips.
+   - Functionality: Updates widget texts and tooltips based on the application's language settings.
+    
+- upload_image(self)
+   - Purpose: Handles the image upload process.
+   - Functionality: Opens a file dialog to select an image, displays the image name, and prepares the image for prediction using a pre-trained model.
+
+- clear/reset_image(self) (Automated)
+    - Purpose: Resets the image display and restarts the GIF animation.
+    - Functionality: Clears the current image and restarts the GIF animation.
+
+- predict_result(self)
+    - Purpose: Makes predictions on the uploaded image and displays the result.
+    - Functionality: Shows a message box with the prediction result (Normal or Affected By PNEUMONIA) and applies color coding to the text.
+
