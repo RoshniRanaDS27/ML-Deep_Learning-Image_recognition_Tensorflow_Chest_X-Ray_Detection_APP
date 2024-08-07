@@ -37,7 +37,7 @@ https://github.com/user-attachments/assets/2fa688f1-2151-412e-a564-b3786c04e483
 - **Threading:** To run text-to-speech operations asynchronously.
 
 ## Installation
-
+![f825f793957677 5e7242767044b](https://github.com/user-attachments/assets/fed4db2b-6491-4af4-9b2a-279148e4193f)
 ### Prerequisites
 
 - Python 3.x
