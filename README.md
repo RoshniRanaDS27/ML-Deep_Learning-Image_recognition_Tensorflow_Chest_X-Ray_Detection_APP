@@ -72,6 +72,7 @@ Used the code snippet above to train the model and saved it as chest_xray_Roshni
 4. View Results: A message box will display the result, and the result will be announced via speech synthesis.
 
 # ML Prediction model Code Overview
+![0_M50IPKZz58Fyy178](https://github.com/user-attachments/assets/01954378-eff0-4953-ad57-4f2c43aca0c5)
 ### Main Application Code
 The codebase for the Pneumonia Detection App consists of several key components. Here's an overview of the main sections:
 
