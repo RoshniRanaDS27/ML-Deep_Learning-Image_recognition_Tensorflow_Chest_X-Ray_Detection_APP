@@ -12,7 +12,7 @@
 ## Overview
 
 The Pneumonia Detection App is a desktop application designed to detect pneumonia from chest X-ray images using deep learning. The application features a user-friendly interface built with PyQt5 and utilizes a TensorFlow-based model for image recognition. It provides real-time results through visual and audio feedback.
-### Video For App Demo:
+### Video For App Demo: (Turn on the video for speak_async(text) experience)
 https://github.com/user-attachments/assets/25027ef8-c278-4ee9-83c6-50534341c1b7
 
 ## App Features
