@@ -5,8 +5,6 @@
 # Pneumonia Detection App
 ![ezgif com-optimize](https://github.com/user-attachments/assets/f91fb51a-efcf-4b4a-a07c-f0656b703466) 
 
-
-
 #
 ## Overview
 
@@ -49,6 +47,7 @@ https://github.com/user-attachments/assets/2fa688f1-2151-412e-a564-b3786c04e483
 # Machine Learning Model
 ### ML- Prediction Model Code file : ML_Model_Code_Roshni.ipynb
 ### Model File: chest_xray_Roshnis_Model.h5 
+![Understanding the Hype Around Machine Learning](https://github.com/user-attachments/assets/9cdfc433-c334-4164-ac9e-c0a23376c60f)
 
 # Model Creation
 1. Prepare Data:
