@@ -10,7 +10,8 @@ The Pneumonia Detection App is a desktop application designed to detect pneumoni
 ## Features
 
 - **Image Upload:** Allows users to upload chest X-ray images.  
-### Video : https://github.com/user-attachments/assets/2fa688f1-2151-412e-a564-b3786c04e483
+### Video for How to upload Scanned Chest X-ray Images :   
+https://github.com/user-attachments/assets/2fa688f1-2151-412e-a564-b3786c04e483
 
 - **Prediction:** Classifies the uploaded image to detect pneumonia.
 - **Result Feedback:** Displays results via pop-ups and text-to-speech.
