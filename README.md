@@ -33,5 +33,33 @@ The Pneumonia Detection App is a desktop application designed to detect pneumoni
 - pywin32
 
 # Machine Learning Model
-## ML- Prediction Model Code file : 
-Model File: chest_xray_Roshnis_Model.h5 
+### ML- Prediction Model Code file : ML_Model_Code_Roshni.ipynb
+### Model File: chest_xray_Roshnis_Model.h5 
+
+# Model Creation
+1. Prepare Data:
+
+- Training Path: Datasets_Chest_xrays/train
+- Validation Path: Datasets_Chest_xrays/test
+  
+2. Model Architecture:
+
+- Base Model: VGG16 with ImageNet weights (excluding top layers).
+- Custom Layers: Added Flatten and Dense layers for classification.
+
+3. Code for Model Creation: ML_Model_Code_Roshni.ipynb
+4. Training and Saving
+Used the code snippet above to train the model and saved it as chest_xray_Roshnis_Model.h5.
+
+# Usage
+
+1. Run the Application:
+-
+3. Upload an Image: 
+- Click the "Upload Image" button to select and upload a chest X-ray image.
+
+3. Predict Results:
+- Click the "Prediction" button to analyze the image and receive the result.
+
+4. View Results:
+- A message box will display the result, and the result will be announced via speech synthesis.
