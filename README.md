@@ -1,4 +1,4 @@
-# Chest_x_ray_Detection- Deep Learning (Image Recognition)
+# Chest_x_ray_Detection- ML_Deep Learning (Image Recognition)
 ![image](https://github.com/user-attachments/assets/e43b7d1f-01af-4570-b5cb-6ddad26fc0de) ![image](https://github.com/user-attachments/assets/d1d68261-4d73-4452-9fc2-4a98389a9daa)
 
   
