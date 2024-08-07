@@ -1,9 +1,12 @@
-# Chest_x_ray_Detection- ML_Deep Learning (Image Recognition)
+# Chest_x_ray_Detection- [ML]Deep Learning (Image Recognition)
 ![image](https://github.com/user-attachments/assets/e43b7d1f-01af-4570-b5cb-6ddad26fc0de) ![image](https://github.com/user-attachments/assets/d1d68261-4d73-4452-9fc2-4a98389a9daa)
 
   
 # Pneumonia Detection App
 ![ezgif com-optimize](https://github.com/user-attachments/assets/f91fb51a-efcf-4b4a-a07c-f0656b703466) 
+
+
+
 #
 ## Overview
 
@@ -20,6 +23,7 @@ https://github.com/user-attachments/assets/2fa688f1-2151-412e-a564-b3786c04e483
 - **Prediction:** Classifies the uploaded image to detect pneumonia.
 - **Result Feedback:** Displays results via pop-ups and text-to-speech.
 - **Animated Loading GIF:** Shows a GIF while processing the image.
+#
 
 ## Technologies Used
 
@@ -115,7 +119,7 @@ The codebase for the Pneumonia Detection App consists of several key components.
     - Functionality: Shows a message box with the prediction result (Normal or Affected By PNEUMONIA) and applies color coding to the text.
 
 # Thank you for Viewing my Project 
+![image](https://github.com/user-attachments/assets/a8d64f75-85f1-4a0e-8d9d-fddb5e7ab792)
 
-![Optimized GIF](ezgif.com-optimize.gif)
 
 
