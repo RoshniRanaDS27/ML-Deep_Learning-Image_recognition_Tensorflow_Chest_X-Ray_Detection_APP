@@ -1,5 +1,5 @@
 # Chest_x_ray_Detection
-![Optimized GIF](ezgif.com-optimize.gif)
+
 
 # Pneumonia Detection App
 
@@ -109,4 +109,9 @@ The codebase for the Pneumonia Detection App consists of several key components.
 - predict_result(self)
     - Purpose: Makes predictions on the uploaded image and displays the result.
     - Functionality: Shows a message box with the prediction result (Normal or Affected By PNEUMONIA) and applies color coding to the text.
+
+# Thank you for Viewing my Project 
+
+![Optimized GIF](ezgif.com-optimize.gif)
+
 
