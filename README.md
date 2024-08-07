@@ -25,7 +25,8 @@ https://github.com/user-attachments/assets/2fa688f1-2151-412e-a564-b3786c04e483
 - **Result Feedback:** Displays results via pop-ups and text-to-speech.
 - **Animated Loading GIF:** Shows a GIF while processing the image.
 #
-
+Dataset link : https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
+#
 ## Technologies Used
 ![giphy](https://github.com/user-attachments/assets/7029b824-d15b-433b-8e5b-61e07c68678f)
 - **Python:** Programming language used for the application.
