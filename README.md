@@ -1,7 +1,10 @@
-# Chest_x_ray_Detection
-# Pneumonia Detection App
-![ezgif com-optimize](https://github.com/user-attachments/assets/f91fb51a-efcf-4b4a-a07c-f0656b703466)
+# Chest_x_ray_Detection- Deep Learning (Image Recognition)
+![image](https://github.com/user-attachments/assets/e43b7d1f-01af-4570-b5cb-6ddad26fc0de) ![image](https://github.com/user-attachments/assets/d1d68261-4d73-4452-9fc2-4a98389a9daa)
 
+  
+# Pneumonia Detection App
+![ezgif com-optimize](https://github.com/user-attachments/assets/f91fb51a-efcf-4b4a-a07c-f0656b703466) 
+#
 ## Overview
 
 The Pneumonia Detection App is a desktop application designed to detect pneumonia from chest X-ray images using deep learning. The application features a user-friendly interface built with PyQt5 and utilizes a TensorFlow-based model for image recognition. It provides real-time results through visual and audio feedback.
