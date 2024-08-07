@@ -3,7 +3,9 @@
 
   
 # Pneumonia Detection App
-![ezgif com-optimize](https://github.com/user-attachments/assets/f91fb51a-efcf-4b4a-a07c-f0656b703466) 
+![ezgif com-optimize](https://github.com/user-attachments/assets/f91fb51a-efcf-4b4a-a07c-f0656b703466) ![image](https://github.com/user-attachments/assets/7a19e67f-452c-4dd9-ae17-93103bbe1986)
+
+
 
 #
 ## Overview
@@ -24,7 +26,7 @@ https://github.com/user-attachments/assets/2fa688f1-2151-412e-a564-b3786c04e483
 #
 
 ## Technologies Used
-
+![giphy](https://github.com/user-attachments/assets/7029b824-d15b-433b-8e5b-61e07c68678f)
 - **Python:** Programming language used for the application.
 - **PyQt5:** Framework for creating the graphical user interface (GUI).
 - **TensorFlow:** Library for deep learning and model inference.
@@ -49,21 +51,22 @@ https://github.com/user-attachments/assets/2fa688f1-2151-412e-a564-b3786c04e483
 ### Model File: chest_xray_Roshnis_Model.h5 
 ![Understanding the Hype Around Machine Learning](https://github.com/user-attachments/assets/9cdfc433-c334-4164-ac9e-c0a23376c60f)
 
-# Model Creation
+# Model Creation      
 1. Prepare Data:
 
 - Training Path: Datasets_Chest_xrays/train
 - Validation Path: Datasets_Chest_xrays/test
   
-2. Model Architecture:
-
+2. Model Architecture:  
 - Base Model: VGG16 with ImageNet weights (excluding top layers).
 - Custom Layers: Added Flatten and Dense layers for classification.
-
+  
 3. Code for Model Creation: ML_Model_Code_Roshni.ipynb
 4. Training and Saving
 Used the code snippet above to train the model and saved it as chest_xray_Roshnis_Model.h5.
-
+  
+  ![neuron-animation-blog](https://github.com/user-attachments/assets/cf9c7633-0f42-479a-8689-078dc603ad23)
+#
 # APP Usage
 
 1. Run the Application: chest_xray_App_Roshni.py 
@@ -72,7 +75,7 @@ Used the code snippet above to train the model and saved it as chest_xray_Roshni
 4. View Results: A message box will display the result, and the result will be announced via speech synthesis.
 
 # ML Prediction model Code Overview
-![0_M50IPKZz58Fyy178](https://github.com/user-attachments/assets/01954378-eff0-4953-ad57-4f2c43aca0c5)
+![87f3f1425b217691da645e97dbb50d55](https://github.com/user-attachments/assets/1fa5ab05-fb0b-44bb-b62c-dd1803ed80ed)
 ### Main Application Code
 The codebase for the Pneumonia Detection App consists of several key components. Here's an overview of the main sections:
 
@@ -86,7 +89,7 @@ The codebase for the Pneumonia Detection App consists of several key components.
 - **Threading:** To run text-to-speech operations asynchronously.
 
 # Functions
-
+![0_M50IPKZz58Fyy178](https://github.com/user-attachments/assets/01954378-eff0-4953-ad57-4f2c43aca0c5)
 ### speak_async(text)
 - Purpose: To perform text-to-speech operations asynchronously.
 - Implementation: Uses the *win32com.client* library to convert text to speech in a separate thread.
