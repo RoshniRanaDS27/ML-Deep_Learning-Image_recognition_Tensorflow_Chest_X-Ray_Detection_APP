@@ -23,7 +23,7 @@ https://github.com/user-attachments/assets/2fa688f1-2151-412e-a564-b3786c04e483
 #
 ![ai_](https://github.com/user-attachments/assets/a7233ec5-5628-41f5-9b9e-660e9da39f4d)
 #
--  **Result Feedback:** Displays results via pop-ups and text-to-speech.
+-  **Result Feedback:** Displays results via pop-ups and text-to-speech (Audio Results)
 - **Animated Loading GIF:** Shows a GIF while processing the image.
 #
 Dataset link : https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
