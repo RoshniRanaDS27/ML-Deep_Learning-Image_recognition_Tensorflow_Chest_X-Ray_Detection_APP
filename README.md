@@ -5,7 +5,6 @@
   
 # Pneumonia Detection App
 ![ezgif com-optimize](https://github.com/user-attachments/assets/f91fb51a-efcf-4b4a-a07c-f0656b703466) ![image](https://github.com/user-attachments/assets/7a19e67f-452c-4dd9-ae17-93103bbe1986)
-
 #
 ## Overview
 
