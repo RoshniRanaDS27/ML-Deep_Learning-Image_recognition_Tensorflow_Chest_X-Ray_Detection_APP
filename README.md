@@ -1,6 +1,7 @@
 # Pneumonia Detection - Machine Learning
 # Chest_x_ray_Detection- [ML]Deep Learning (Image Recognition)
-![image](https://github.com/user-attachments/assets/e43b7d1f-01af-4570-b5cb-6ddad26fc0de) ![image](https://github.com/user-attachments/assets/d1d68261-4d73-4452-9fc2-4a98389a9daa)
+![image](https://github.com/user-attachments/assets/b745e340-ff17-4fb5-9e1e-f002edc70dab) ![image](https://github.com/user-attachments/assets/e43b7d1f-01af-4570-b5cb-6ddad26fc0de) 
+
 
   
 # Pneumonia Detection App
