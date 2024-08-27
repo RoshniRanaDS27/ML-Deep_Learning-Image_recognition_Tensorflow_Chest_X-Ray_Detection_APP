@@ -9,7 +9,16 @@
 #
 ## Overview
 
-The Pneumonia Detection App is a desktop application designed to detect pneumonia from chest X-ray images using deep learning. The application features a user-friendly interface built with PyQt5 and utilizes a TensorFlow-based model for image recognition. It provides real-time results through visual and audio feedback.
+The Pneumonia Detection App is a desktop application designed to detect pneumonia from chest X-ray images using deep learning. The application features a user-friendly interface built with PyQt5 and utilizes a TensorFlow-KERAS based model for image recognition. 
+It provides real-time results through visual and audio feedback.
+
+Also, image-based data Numonia detection dashboard, powered by a deep learning model built on the VGG16 architecture.   
+- This model leverages the power of neural networks to classify and analyze medical images with high accuracy.  
+- At the heart of our solution is the VGG16 model, pre-trained on the ImageNet dataset. We've fine-tuned it by adding custom layers on top. To maintain efficiency, we've kept the original VGG16 layers frozen and focused our training on the custom layers we've added.  
+- Our dashboard is designed to process and classify medical images seamlessly. Users can upload an image, and the system will analyze it, predict the class of the image.   
+- One of the standout features of our dashboard is the real-time audio announcement of results. Once the model makes a prediction, also popup  result will immediately displayed on the screen with a color-coded message—green for positive results and red for negative results. making it easy for users to understand the outcome instantly. Additionally, we've included a text-to-speech function to read out the results loundly all kind of users.  
+- This functionality is particularly useful in clinical settings where quick and clear communication is critical. Additionally, the text-to-speech capability enhances accessibility, making our system user-friendly.
+#
 ### Video For App Demo: (Turn on the audio for speak_async(text) experience)
 https://github.com/user-attachments/assets/25027ef8-c278-4ee9-83c6-50534341c1b7
 
@@ -38,6 +47,7 @@ Dataset link : https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneu
 - **Warnings and PIL:** Used to handle image processing and suppress warnings.
 - **NumPy:** For numerical operations on image data.
 - **Threading:** To run text-to-speech operations asynchronously.
+- VGG16 Architecture
 
 ## Installation
 ![f825f793957677 5e7242767044b](https://github.com/user-attachments/assets/fed4db2b-6491-4af4-9b2a-279148e4193f)
