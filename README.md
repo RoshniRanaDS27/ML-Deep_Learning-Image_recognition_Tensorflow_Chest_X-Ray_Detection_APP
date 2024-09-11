@@ -1,4 +1,6 @@
 # Pneumonia Detection - Machine Learning
+![image](https://github.com/user-attachments/assets/f4e3fdef-557e-4ec9-9c0c-a6446e67760e)
+
 # Chest_x_ray_Detection- [ML]Deep Learning (Image Recognition)
 ![image](https://github.com/user-attachments/assets/b745e340-ff17-4fb5-9e1e-f002edc70dab) ![image](https://github.com/user-attachments/assets/e43b7d1f-01af-4570-b5cb-6ddad26fc0de) 
 
